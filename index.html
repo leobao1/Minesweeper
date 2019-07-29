@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class='border'>
+        <div class='game'>
+            <div class='top_bar' id='bar'>
+                <div class='reset' onclick="reset()">
+                    <img src="" alt="sprites/face.png" class='img' id='reset_img'>
+                </div>
+            </div>
+            <div id="mine"></div>
+        </div>
+        <form>
+            Width: <input type="number" id="w" min='2' value='20'><br>
+            Height: <input type="number" id="h" min='2' value='15'><br>
+            Bombs: <input type="number" id="b" min='1' value='50'><br>
+        </form>
+    </div>
+    
+    <script src='mine.js'></script>
+</body>
+</html>
